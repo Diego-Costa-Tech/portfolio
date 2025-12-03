@@ -89,15 +89,15 @@ const FooterIcons = ({currentLanguage }: FooterIconsProps) => {
         
       <button
         className={'flex hover:bg-fuchsia-600 light:text-black dark:text-white p-3 text-xs font-thin uppercase leading-normal transition delay-100 duration-200 ease-in active:text-gray-400 '}
-        onClick={() => handleCopyToClipboard("diegoe.r.c07@gmail.com", "Mail")}
+        onClick={() => handleCopyToClipboard("diego.costa.tech@gmail.com", "Mail")}
       >
         <TfiEmail className="lg:w-[1rem] lg:h-[1rem] md:w-[1rem] md:h-[1rem] sm:w-[1rem] sm:h-[1rem] w-[1rem] h-[1rem] transition-colors duration-200" />
         <span className="ml-1">{translations[currentLanguage].mail}</span>
       </button>
 
       <div className='p-3 flex flex-row'>
-          <Icon href="https://www.linkedin.com/in/diegoerc/" target="_blank" label="Instagram" classNameIcon="p-3 mr-2" classNameLink="group" icon={FaLinkedin}></Icon>
-          <Icon href="https://github.com/DiegoCstyles" target="_blank" label="Linkedin" classNameIcon="p-3 ml-2" classNameLink="group" icon={FaGithub}></Icon>  
+          <Icon href="https://www.linkedin.com/in/diegocostatech/" target="_blank" label="Instagram" classNameIcon="p-3 mr-2" classNameLink="group" icon={FaLinkedin}></Icon>
+          <Icon href="https://github.com/Diego-Costa-Tech" target="_blank" label="Linkedin" classNameIcon="p-3 ml-2" classNameLink="group" icon={FaGithub}></Icon>  
       </div>
     </div>
   );
